@@ -31,7 +31,7 @@ const Navbar = ({ theme, setTheme }) => {
         />
       </NavLink>
       <nav className=' flex text-lg gap-7 font-medium'>
-        <NavLink
+        {/* <NavLink
           to='/projects'
           className={({ isActive }) =>
             isActive
@@ -40,7 +40,7 @@ const Navbar = ({ theme, setTheme }) => {
           }
         >
           Projects
-        </NavLink>
+        </NavLink> */}
         <NavLink
           to='/about'
           className={({ isActive }) =>
@@ -51,7 +51,7 @@ const Navbar = ({ theme, setTheme }) => {
         >
           About
         </NavLink>
-        <NavLink
+        {/* <NavLink
           to='/contact'
           className={({ isActive }) =>
             isActive
@@ -60,7 +60,7 @@ const Navbar = ({ theme, setTheme }) => {
           }
         >
           Contact
-        </NavLink>
+        </NavLink> */}
         {pathname !== '/' && (
           <button
             className='rounded-full dark:bg-ash bg-slate-200 p-2 w-8 h-8'
