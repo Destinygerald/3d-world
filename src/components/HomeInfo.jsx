@@ -18,7 +18,7 @@ const InfoBox = ({ text, link, btnText }) => (
 const rederedContent = {
   1: (
     <h1 className=' sm:text-xl sm:leading-snug glassy-box rounded-xl text-center py-12 px-8 mx-5 text-white'>
-      Hi, I am <span className=' font-bold'>Isbat </span>
+      Hi, I am <span className=' font-bold'>Destiny </span>
       <span className=' wave-hand'>👋</span>
       <br />A Full Stack Web Developer
       <br />
