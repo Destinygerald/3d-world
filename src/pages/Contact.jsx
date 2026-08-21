@@ -123,7 +123,7 @@ const Contact = () => {
               required
             />
           </label>
-          <button
+          {/* <button
             type='submit'
             className='btn'
             onFocus={handleFocus}
@@ -131,7 +131,7 @@ const Contact = () => {
             disabled={isLoading}
           >
             {isLoading ? 'Sending Your Message...' : 'Send Message'}
-          </button>
+          </button> */}
         </form>
       </div>
       <div className=' lg:w-1/2 w-full lg:h-auto md:h-[550px] h-[350px]'>
