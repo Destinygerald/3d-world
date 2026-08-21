@@ -7,12 +7,12 @@ const About = () => {
       <h1 className='head-text'>
         Hello, I'm{' '}
         <span className=' blue-gradient_text font-semibold drop-shadow'>
-          Isbat
+          Destiny
         </span>
       </h1>
       <div className=' mt-5 flex flex-col text-slate-500 gap-3'>
         <p>
-          Full Stack Web Developer based in Bangladesh, passionate about
+          Full Stack Web Developer passionate about
           creating innovative and efficient web solutions.
         </p>
       </div>
